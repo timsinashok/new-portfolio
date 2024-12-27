@@ -1,0 +1,32 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	gap: 2em;
+	align-items: center;
+	font-size: 0.9em;
+}
+
+.nav {
+	ul {
+		display: flex;
+		padding: 0;
+		list-style: none;
+		gap: 1em;
+	}
+
+	a {
+		transition: 0.2s all ease-in-out;
+		color: var(--text-color-shadier);
+		&:hover {
+			color: var(--link-color);
+		}
+	}
+}
+
+.icon {
+	color: currentColor;
+}
+
+.praiseGod {
+	color: var(--text-color-shadier);
+}

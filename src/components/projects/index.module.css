@@ -1,0 +1,113 @@
+.project {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.2s all ease-in-out;
+	gap: 2em;
+	border-radius: 0.03em;
+	text-decoration: none;
+
+	@media (min-width: 600px) {
+		border-radius: 0.05em;
+	}
+
+	&:hover {
+		background-color: var(--text-color-slim-shady);
+		box-shadow: 0 0 0 0.5em var(--text-color-slim-shady);
+
+		h3,
+		.icon {
+			color: var(--link-color);
+		}
+	}
+}
+
+.imageLeft {
+	flex-direction: row;
+}
+
+.imageRight {
+	flex-direction: row-reverse;
+}
+
+.projectContainer {
+	--flow-space: 2em;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+}
+
+.projectText {
+	p {
+		margin-top: 0.25em;
+	}
+}
+
+.projectImage {
+	margin-right: 6px;
+}
+
+.projectImage img {
+	width: 320px;
+	height: 160px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.projectContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.projectLinks {
+	display: flex;
+	gap: 1em;
+	margin-top: 0.5em;
+}
+
+.projectLinks a {
+	text-decoration: none;
+	color: var(--link-color-hover);
+	transition: color 0.2s ease-in-out; 
+}
+
+.projectLinks a:hover {
+	color: var(--link-color);
+}
+
+.projectIcon {
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	width: 1.5em;
+	height: 1.5em;
+	color: var(--text-color-shadiest);
+}
+
+.project {
+	display: flex;
+	align-items: center;
+}
+
+.imageLeft {
+	flex-direction: row;
+}
+
+.imageRight {
+	flex-direction: row-reverse;
+}
+
+.projectImage {
+	flex: 1.6;
+}
+
+.projectContent {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

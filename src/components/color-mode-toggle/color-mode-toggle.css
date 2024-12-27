@@ -1,0 +1,30 @@
+.dark_mode {
+	margin-top: -20px;
+	margin-left: 10px;
+}
+
+.dark_mode_label {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #ebebeb;
+	border-radius: 200px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.dark_mode_input {
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+.dark_mode_input:checked + .dark_mode_label {
+	background: #191919;
+}
+
+.dark_mode_label svg {
+	width: 16px;
+	z-index: 100;
+}
