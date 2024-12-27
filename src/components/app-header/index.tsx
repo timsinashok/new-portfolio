@@ -81,7 +81,7 @@ const AppHeader = ({ hideIntro }: HeaderProps) => {
 					</ul>
 				</nav>
 			</div>	
-			{hideIntro && (		
+			{!hideIntro && (		
 			<p className={styles.intro}>
 				I'm an innovative problem solver specializing in AI/ML and SWE. With a passion for robotic software engineering and computer vision, I am pursuing a Bachelor's degree in Computer Science and Engineering. I have excelled in programming, algorithms, and machine learning, earning recognition for my contributions and achievements in the field.
 			</p>
