@@ -231,13 +231,13 @@ const Home = () => {
 				))}
 				</ProjectContainer>
 			</Section>
-			<Section label='Publications'>
+			{/* <Section label='Publications'>
 				<h1 className={styles.h1}>Publications</h1>
 					<p>
 						Coming Soon ...
 						
 					</p>
-			</Section>
+			</Section> */}
 		</Layout>
 	);
 };
