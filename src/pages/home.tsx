@@ -31,7 +31,7 @@ const projects = [
 	{
 		name: 'Autopark',
 		description: 'A smart parking system for VIAM based Rover using Computer Vision',
-		href: 'https://147colors.com',
+		href: 'https://github.com/timsinashok/autopark',
 		type: 'Robotics and IoT',
 		featured: true,
 		imageSrc: '/assets/images/autopark.png',
@@ -77,7 +77,7 @@ const projects = [
 	  name: 'Heal-Di',
 	  description: 'Django apps for appointment scheduling, medical records, and user management.',
 	  href: 'https://github.com/timsinashok/heal-diapp',
-	  imageSrc: '/assets/images/spexy.png',
+	  imageSrc: '/assets/images/healdi.png',
 	  type: 'Web',
 	  featured: false,
 	  isImageLeft: false,
