@@ -10,6 +10,24 @@ import AnimatedBackground from "../components/BG/Animatedbackground";
 
 const projects = [
 	{
+		name: 'Obscura',
+		description: 'Scrape-Proof CDN designed to protect creative content in post LLM era.',
+		href: 'https://github.com/timsinashok/obscura',
+		type: 'Web',
+		featured: true,
+		imageSrc: '/assets/images/obscura.png',
+		isImageLeft: true
+	  },
+	  {
+		name: 'Anybot',
+		description: 'Chatbot for context-aware interactions with technical documentation',
+		href: 'https://github.com/timsinashok/anybot',
+		type: 'AI/ML',
+		featured: true,
+		imageSrc: '/assets/images/anybot.png',
+		isImageLeft: true
+	  },	  
+	{
 	  name: 'Spexy',
 	  description: 'Intelligent platform recommending eyeglasses based on face shape.',
 	  href: 'https://github.com/timsinashok/spexy',
